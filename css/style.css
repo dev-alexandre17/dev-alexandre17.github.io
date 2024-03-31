@@ -1,0 +1,108 @@
+/*Importação de fonte da Google*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Cabeçario da página */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  gap: 10%;
+}
+
+.logo img {
+  height: 60px;
+}
+nav ul {
+  display: flex;
+  gap: 50px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Sessão do perfil e habilidades de tecnologias */
+section{
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.descricao-perfil{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.descricao-perfil .img-perfil{
+    width: 27vw;
+    height: 39vh;
+}
+.descricao-habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descricao-habilidades h1{
+    font-size: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600px;
+}
+.habilidades{
+    padding-top: 15px;
+    max-width: 440px;
+    max-height: 200px;
+}
+.habilidades img{
+    padding: px;
+    height: 45px;
+}
+
+/* Conteúdos principais da página */
+.blocos_galeria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    gap: 30px;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+.contain img{
+    width: 16vw;
+    height: 16vh;
+}
+.conteudo p{
+    width: 80%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Footer da página */
+
+footer{
+    background-image: url(/img/footer.jpg);
+    color: black;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
